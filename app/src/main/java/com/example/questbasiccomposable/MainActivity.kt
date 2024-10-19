@@ -84,6 +84,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
         )
+        Spacer(modifier = Modifier.height(8.dp))
 
 
     }

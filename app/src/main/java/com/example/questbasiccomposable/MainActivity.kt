@@ -74,6 +74,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier.fillMaxSize()
         )
+        Spacer(modifier = Modifier.height(8.dp))
 
 
     }

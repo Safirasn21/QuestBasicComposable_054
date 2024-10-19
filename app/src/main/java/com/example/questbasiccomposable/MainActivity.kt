@@ -110,8 +110,6 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier.fillMaxSize()
         )
-
-
     }
 }
 
@@ -119,6 +117,6 @@ fun BasicCompose(modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     QuestBasicComposableTheme {
-        Greeting("Android")
+        BasicCompose()
     }
 }

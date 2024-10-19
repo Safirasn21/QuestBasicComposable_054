@@ -58,6 +58,15 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Text(
+            text = "Ini adalah halaman login",
+            style = TextStyle(
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+        )
+
 
     }
 }

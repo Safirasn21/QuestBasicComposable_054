@@ -86,6 +86,15 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Text(
+            text = "Safira Nurul Hidayah",
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+        )
+
 
     }
 }

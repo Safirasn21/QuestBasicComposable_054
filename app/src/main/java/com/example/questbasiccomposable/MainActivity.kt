@@ -106,6 +106,11 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Image(painter = painterResource(id = R.drawable.downloadd),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize()
+        )
+
 
     }
 }

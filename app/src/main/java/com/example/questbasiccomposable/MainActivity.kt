@@ -94,6 +94,16 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
         )
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(
+            text = "20220140054",
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+        )
 
 
     }
